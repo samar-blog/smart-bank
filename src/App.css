@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+* { 
+  padding: 0;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  box-sizing: border-box;
+}
+/* Navbar css  */
+.navbar { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  box-shadow: rgba(50,50,93,0.23)
+  0 30px 30px -20px;
+  margin: 1rem 5rem;
+  background-color: #fed700;
+  border-radius: 15px;
+  position: relative;
+}
+.logo { 
+  font-size: 30px;
+  color: #000;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.nav-links { 
+  justify-content: flex-end;
+  display: flex;
+  width: 75%;
+}
+
+.nav-links li {
+  color: black;
+  text-decoration: none !important;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.hero {
+  text-align: center;
+  margin-top: 15%;
+}
+.hero h1 {
+  text-align: center;
+  font-size: 80px;
+}
+.mobile-menu-icon {
+  display: none;
+}
+button {
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+Link { 
+  text-decoration: none;
+}
+/* News */
+.cardx { 
+  width:70%;
+}
+.cardx img { 
+  width:100%;
+  height:50%;
+}
+.cardx { 
+  border: 1px solid #000;
+}
+.box { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navbar Responsive css */
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: #fff;
+  }
+  ul li {
+    padding: 22px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: right;
+    display: inline-block;
+    margin: 0 25px;
+  }
+
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+
+}
+.link { 
+  background-color: var(--primary-color);
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Prpofile  */
+.signup { 
+background-color: #3d819c;
+text-align: center;
+width: 100%;
+}
+.signup h1 { 
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+.signup input{
+  border: 2px solid #fff;
+  border-radius:3px;
+  padding: 10px 5px;
+  width: 400px;
+  margin: 15px;
+}
+.signup select { 
+  border: 2px solid #fff;
+  border-radius:3px;
+  padding: 10px 5px;
+  width: 400px;
+  margin: 15px;
+}
+.knopka { 
+  background-color: #fed700;
+  width: 200px !important;
+  font-weight: bold;
+  border-radius: 12px !important;
+}
+.signin { 
+    background-color: #3d819c;
+    text-align: center;
+    width: 100%;
+}
+.signin h1 {
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+.signin input { 
+  border: 2px solid #fff;
+  border-radius:3px;
+  padding: 10px 5px;
+  width: 400px;
+  margin: 15px;
+}

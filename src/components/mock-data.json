@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "fullName": "Coca-Cola",
+      "price": "15$",
+      "description": "for drink",
+      "date": "2022-06-05"
+    },
+    {
+        "id": 2,
+        "fullName": "Chicken",
+        "price": "10$",
+        "description": "cookies",
+        "date": "2022-06-05"
+      },
+      {
+        "id": 3,
+        "fullName": "Tomato",
+        "price": "19$",
+        "description": "salad",
+        "date": "2022-06-05"
+      },
+      {
+        "id": 4,
+        "fullName": "Cabbage",
+        "price": "20$",
+        "description": "Food",
+        "date": "2022-06-05"
+      }
+  ]
